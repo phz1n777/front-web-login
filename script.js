@@ -22,4 +22,16 @@ button.addEventListener(("click"), function(event) {
   }
 
   clearForm();
+
 });
+
+function logIn() {
+  // Obter os valores dos campos de login e senha
+  var login = document.getElementById('login').value;
+  var senha = document.getElementById('senha').value;
+
+  // Exibir os valores no console
+  console.log('Login:', login);
+  console.log('Senha:', senha);
+
+}
